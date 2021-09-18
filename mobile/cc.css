@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+
+
+.body{
+  padding: 0;
+  margin: 0;
+  
+}
+.slider{
+   
+   height: 8vh;
+   background-color: black;
+   width:max;
+   font-family: 'Roboto', sans-serif;
+   padding-top: 8px ;
+  
+
+}
+
+.border3
+{
+  border-bottom:  solid 2px white;
+}
+.size{
+  background-color: rgb(24, 24, 24);  
+  min-height:calc( 108vh - 58px - 12vh );
+}
+div a img
+{
+  width: 3vw;
+   
+}
+
+#setting
+{
+  padding: 0% 4%;
+  background-color:white;
+  color: black;
+}
+i
+{
+  padding:  5px; 
+  color: white;
+  background-color: brown; 
+}
+.one
+{
+  padding: 0% 2%;
+  margin: 0%;
+  border-right: white 5px solid ;
+    
+}
+
+
+#two
+{
+  padding: 0%;
+
+}
+#two:hover{
+  background-color: aqua;
+   
+}
+.ed{
+  background-color: brown;
+  color: white  ;
+  font-family: 'Roboto', sans-serif;
+}
+#slider
+{
+  overflow: hidden;
+}
+#slider figure
+{
+  position: relative;
+  width: 500%;
+  margin: 0%;
+  left: 0%;
+  animation: 20s slider infinite;
+  clear:both;
+  
+}
+.qqq{
+  background-color:brown;
+  color: white;
+  border:2px solid brown;
+}
+.color{
+  background-color: black;
+}
+.inline{
+  display: inline-block;
+}
+a{
+  text-decoration: none;
+}
+#slider figure img
+{
+  width: 20%;
+  float: left;
+  height: 320px;
+  background-color: black;
+  
+}
+@keyframes slider
+{
+  0%{
+    left: 0%;
+  }
+  20% {
+      left: 0%;
+  }
+  25%
+  {
+     left: -100%;
+  }
+  45%
+  {
+    left: -100%;
+  }
+  50%
+  {
+    left: -200%;
+  }
+  70%
+  {
+    left: -200%;
+  }
+  95%
+  {
+    left: -300%;
+  }
+  
+}
+figure img
+{
+  width: 100px;
+  padding: 0% 2%;
+}
+h2 
+{
+  color: brown;
+  background-color: rgb(24, 24, 24); 
+  font-size: auto;
+  
+}
+div h4
+{
+  padding-top: 0.5rem;
+ 
+
+}
+ii{
+  
+  background-color:brown;
+}
+
+div h6{
+  padding-top: 0.5rem;
+ 
+}
+.manage{
+  text-align: justify;
+}
+
+.manage:hover
+{
+  box-shadow: 1px 1px 30px 4px rgb(134, 134, 134);
+}
+.abhi{
+  background-color: brown;
+}
+div img{
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.colo 
+{ 
+  width: 100px;
+  border-bottom: 2px solid brown;
+  display: inline; 
+}
+p a{
+  padding: 3%;
+  border-radius: 10px 10px 10px 10px;  
+}
+.b
+{
+  border-bottom: 2px solid;
+  padding-bottom: 1%;
+}
+.tp
+{
+  text-decoration: none;
+}
+.o{
+  background-color: brown;
+}
+
+.anima{
+  background-color:rgb(255, 81, 81);
+  box-shadow: 3px 3px 1px 2px ;
+ 
+}
+div .nav-bar img{
+  margin-top: 2px;
+}
+.ede{
+  background-color: black;
+  border: 2px solid;
+}
+div div h4{
+  border-bottom: 2px solid;
+}
+.qq{
+  border-bottom: 2px solid;
+}
+.aaa:hover{
+   background-color:cadetblue;
+}
+.magic{
+  margin: 0px 21px;
+}
+.menu-right{
+  text-align: right;
+  margin-right: 5%;
+}
+ul div{
+  display: inline-block;
+  margin: 3px 20px;
+}
+.nav-bar a{
+ float: left;
+ padding-left: 5%;
+}
+.nav-bar{
+  background-color: black;
+  border-bottom: 2px solid white;
+  padding-top: 10px;
+  padding-bottom: 2px;
+}
+.ptt{
+  float: left;
+  margin-top: 2px;
+  margin-left: 10%;
+
+}
+.pt{
+  float: left;
+  margin-top: 7px;
+}
+ul div a {
+  color: white;
+}
+
+span{
+  margin: 0 20px;
+  font-size: 28px;
+  cursor:pointer;
+  color: white;
+  display: none;
+}
+@media only  screen and (max-width:725px)
+{
+  span{
+    display: block;
+  }
+  ul div{
+    width: 100%;
+    float: right;
+    border-bottom: 2px  solid white;
+    padding-left:50%;
+  }
+  ul{
+    display: none;
+  }
+
+}
